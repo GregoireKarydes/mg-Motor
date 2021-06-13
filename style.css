@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Mate SC', serif;
+}
+
+#logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 5%;
+}
+
+.section-one {
+    width: 100%;
+    height: 100vh;
+    background-color: yellow;
+    background: url('back.jpg');
+    background-size: cover;
+}
+
+#titre {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+
+#subtitle {
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%,-50%);  
+    font-style: italic;
+    font-weight: lighter;
+    color: white;
+}
+
+#twitter {
+    color: white;
+    background-color: #3A7BE7;
+    padding: 10px 20px;
+    border-radius: 15px;
+    text-decoration: none;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+#twitter:hover {
+    background-color: white;
+    color: #3A7BE7;
+}
+
+/*  section two  */
+
+.section-two {
+    margin-top: 50px;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.container {
+    margin-left: 30px;
+}
+
+.container img {
+    width: 60%;
+    margin : 30px 50px;
+}
+
+#titreh3 {
+    font-weight: bolder;
+    font-size: 30px;
+    color: #3A7BE7;
+    margin-bottom: 10px;
+}
+
+#paraph {
+    font-style: italic;
+    color: gray;
+}
+
+#skill {
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    background-color: #3A7BE7;
+    padding: 40px 20px;
+    border-radius: 20px;
+    width: 30%;
+    text-align: center;
+    position: relative;
+    left: 700px;
+    top: 100px;
+
+}
+
+.section-three {
+    color: white;
+    width: 100%;
+    height: 80vh;
+    background: url('back2.jpg');
+    background-size: cover;
+    margin-bottom: 50px;
+
+}
+
